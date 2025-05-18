@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sectionLottie='https://cdn.prod.website-files.com/65b94b2bab54c86c1cd618a8/6827264cc032f162afebc33f_Copy%20of%20h3______.json';
   
   const myAnimation = loadAndPlayLottie('lottie-loader', loaderLottie);
+  console.log("Testing the commit");
   
   if (myAnimation) {
     // Add a completion event to the Lottie animation
